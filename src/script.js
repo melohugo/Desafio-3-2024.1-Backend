@@ -25,6 +25,8 @@ async function previousPokemon() {
 
     changeImage('img_sprite_front_default' , info.sprites.front_default);
     changeText('name' , info.name);
+    changeText('height' , 'Altura: ' + info.height + 'm');
+    changeText('weight' , 'Peso: ' + info.weight + 'kg');
     console.log("Pokemon Anterior");
 }
 
@@ -36,5 +38,7 @@ async function nextPokemon() {
 
     changeImage('img_sprite_front_default' , info.sprites.front_default);
     changeText('name' , info.name);
+    changeText('height' , 'Altura: ' + info.height + 'm');
+    changeText('weight' , 'Peso: ' + info.weight + 'kg');
     console.log("Pokemon Seguinte");
 }

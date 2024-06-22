@@ -8,10 +8,18 @@ div.pageContent {
   text-align: center;
 }
 
+div.pokemonInfo {
+  border: 2px solid #000; 
+  padding: 2.5em;
+  border-radius: 15px;
+  display: inline-block;
+  box-shadow: 0px 0px 10px 5px rgba(128, 128, 128, 0.5);
+}
+
 img.img_sprite_front_default {
-  width: 96px;
-  height: 96px;
-  margin-block: 1em;
+  width: 350px;
+  height: 350px;
+  margin-block: 2em;
 }
 
 button#previous,
